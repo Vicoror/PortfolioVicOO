@@ -38,7 +38,7 @@ export default function Contact() {
     try {
       setLoading(true);
 
-        await fetch("https://contact-backend-w6mo.onrender.com", {
+        await fetch("https://contact-backend-w6mo.onrender.com/api/contact", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

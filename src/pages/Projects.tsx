@@ -25,46 +25,55 @@ export default function Projects() {
         snap-x snap-mandatory
         items-start
       ">
+
+        <ProjectCard
+          title="Portfolio React"
+          stack="React, Type Script, Tailwind CSS"
+          ide="Visual Studio Code"
+          database="Render"
+          githubUrl="https://github.com/Vicoror/PortfolioVicOO.git"
+          demoVideoUrl="/SampleVideo_1280x720_1mb.mp4"
+        />
       <ProjectCard
           title="E-commerce React"
           stack="React, Java Script, Tailwind CSS"
           ide="Visual Studio Code"
           database="MySQL, Railway"
-          githubUrl="https://github.com/tuusuario/ecommerce"
+          githubUrl="https://github.com/Vicoror/proyecto-final.git"
           demoVideoUrl="/SampleVideo_1280x720_1mb.mp4"
         />
-
+  
       <ProjectCard
           title="App Android Educativa"
           stack="Kotlin"
           ide="Android Studio"
           database="Firebase, archivos locales json"
-          githubUrl="https://github.com/tuusuario/ecommerce"
+          githubUrl="https://github.com/Vicoror/AdroidProyectoFinalOh.git"
           demoVideoUrl="/demo-ecommerce.mp4"
         />
 
       <ProjectCard
           title="App iOS Educativa"
-          stack="Firebase, archivos locales json"
+          stack="Swift"
           ide="Xcode"
-          database="Firebase"
+          database="Firebase, json"
           githubUrl="https://github.com/tuusuario/ecommerce"
           demoVideoUrl="/demo_video_ohlaline.MP4"
         />
 
         <ProjectCard
-          title="App iOS Educativa"
-          stack="Firebase, archivos locales json"
-          ide="Xcode"
-          database="Firebase"
-          githubUrl="https://github.com/tuusuario/ecommerce"
+          title="App Android Flores Aromáticas"
+          stack="Kotlin"
+          ide="Android Studio"
+          database="Apiary"
+          githubUrl="https://github.com/Vicoror/PracticaAndroidModulo7.git"
           demoVideoUrl="/demo_video_ohlaline.MP4"
         />
         <ProjectCard
-          title="App iOS Educativa"
-          stack="Firebase, archivos locales json"
+          title="App iOS Mascotas"
+          stack="Consumo de Api"
           ide="Xcode"
-          database="Firebase"
+          database=""
           githubUrl="https://github.com/tuusuario/ecommerce"
           demoVideoUrl="/demo_video_ohlaline.MP4"
         />

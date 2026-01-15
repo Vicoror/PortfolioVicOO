@@ -11,7 +11,6 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // 🔐 Regex
   const subjectRegex = /^[a-zA-ZÀ-ÿ0-9\s]{3,60}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
   const messageRegex = /^[\s\S]{10,500}$/;
@@ -38,19 +37,22 @@ export default function Contact() {
     try {
       setLoading(true);
 
-        await fetch("https://contact-backend-w6mo.onrender.com/api/contact", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            subject,
-            email,
-            message,
-          }),
-        });
+       const response = await fetch(
+            "https://contact-backend-w6mo.onrender.com/api/contact",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ subject, email, message }),
+            }
+          );
 
-      toast.success("Mensaje enviado con éxito ✨");
+          const data = await response.json();
+
+          if (!response.ok) {
+            throw new Error(data.error || "Error al enviar");
+          }
+
+          toast.success("Mensaje enviado con éxito ✨");
 
       // Limpiar formulario
       setSubject("");

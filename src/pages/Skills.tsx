@@ -38,19 +38,19 @@ const skills = [
     title: "Resolución de problemas",
     image: "/soft.webp",
     description:
-      "Resolución de problemas."
+      "Capacidad de análisis profundo y paciencia para resolver problemas."
   },
    {
-    title: "Android",
+    title: "UX",
     image: "/hard.jpg",
     description:
-      "Desarrollo de aplicaciones Android con arquitectura limpia."
+      "Conocimientos sólidos en la experiencia de usuario."
   },
   {
-    title: "Honestidad",
+    title: "Responsable",
     image: "/soft.webp",
     description:
-      "Colaboración activa, escucha y responsabilidad compartida."
+      "Manejo de información con ética y entrega oportuna del trabajo."
   },
 ];
 

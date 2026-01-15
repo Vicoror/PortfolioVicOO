@@ -30,7 +30,7 @@ export default function Projects() {
           title="Portfolio React"
           stack="React, Type Script, Tailwind CSS"
           ide="Visual Studio Code"
-          database="Render"
+          database="Render, Resend"
           githubUrl="https://github.com/Vicoror/PortfolioVicOO.git"
           demoVideoUrl="/SampleVideo_1280x720_1mb.mp4"
         />

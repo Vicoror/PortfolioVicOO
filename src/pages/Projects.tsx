@@ -40,7 +40,7 @@ export default function Projects() {
           ide="Visual Studio Code"
           database="MySQL, Railway"
           githubUrl="https://github.com/Vicoror/proyecto-final.git"
-          demoVideoUrl="/SampleVideo_1280x720_1mb.mp4"
+          demoVideoUrl="/Joyeria.mp4"
         />
   
       <ProjectCard
@@ -49,7 +49,7 @@ export default function Projects() {
           ide="Android Studio"
           database="Firebase, archivos locales json"
           githubUrl="https://github.com/Vicoror/AdroidProyectoFinalOh.git"
-          demoVideoUrl="/demo-ecommerce.mp4"
+          demoVideoUrl="/EduFrAndroid.mp4"
         />
 
       <ProjectCard
@@ -58,7 +58,7 @@ export default function Projects() {
           ide="Xcode"
           database="Firebase, json"
           githubUrl="https://github.com/tuusuario/ecommerce"
-          demoVideoUrl="/demo_video_ohlaline.MP4"
+          demoVideoUrl="/iOSEduApp.mp4"
         />
 
         <ProjectCard
@@ -67,7 +67,7 @@ export default function Projects() {
           ide="Android Studio"
           database="Apiary"
           githubUrl="https://github.com/Vicoror/PracticaAndroidModulo7.git"
-          demoVideoUrl="/demo_video_ohlaline.MP4"
+          demoVideoUrl="/FloresArAndroid.mp4"
         />
         <ProjectCard
           title="App iOS Mascotas"
@@ -75,7 +75,7 @@ export default function Projects() {
           ide="Xcode"
           database=""
           githubUrl="https://github.com/tuusuario/ecommerce"
-          demoVideoUrl="/demo_video_ohlaline.MP4"
+          demoVideoUrl="/AdopMasiOS.mp4"
         />
         
     </div>

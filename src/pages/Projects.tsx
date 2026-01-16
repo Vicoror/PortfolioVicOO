@@ -32,7 +32,7 @@ export default function Projects() {
           ide="Visual Studio Code"
           database="Render, Resend"
           githubUrl="https://github.com/Vicoror/PortfolioVicOO.git"
-          demoVideoUrl="/SampleVideo_1280x720_1mb.mp4"
+          demoVideoUrl="/porfolio.mp4"
         />
       <ProjectCard
           title="E-commerce React"

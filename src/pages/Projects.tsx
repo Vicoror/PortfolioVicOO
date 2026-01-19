@@ -50,6 +50,7 @@ export default function Projects() {
           database="Firebase, archivos locales json"
           githubUrl="https://github.com/Vicoror/AdroidProyectoFinalOh.git"
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608843/EduFrAndroid_ijp4oc.mp4"
+
         />
 
       <ProjectCard

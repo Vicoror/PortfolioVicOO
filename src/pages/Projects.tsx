@@ -31,8 +31,8 @@ export default function Projects() {
           stack="React, Type Script, Tailwind CSS"
           ide="Visual Studio Code"
           database="Render, Resend"
-          githubUrl="https://github.com/Vicoror/PortfolioVicOO.git"
-          demoVideoUrl="/SampleVideo_1280x720_1mb.mp4"
+          githubUrl=""
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608841/porfolio_ztgtor.mp4"
         />
       <ProjectCard
           title="E-commerce React"
@@ -40,7 +40,7 @@ export default function Projects() {
           ide="Visual Studio Code"
           database="MySQL, Railway"
           githubUrl="https://github.com/Vicoror/proyecto-final.git"
-          demoVideoUrl="/SampleVideo_1280x720_1mb.mp4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/Joyeria_qkjeua.mp4"
         />
   
       <ProjectCard
@@ -49,7 +49,7 @@ export default function Projects() {
           ide="Android Studio"
           database="Firebase, archivos locales json"
           githubUrl="https://github.com/Vicoror/AdroidProyectoFinalOh.git"
-          demoVideoUrl="/demo-ecommerce.mp4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608843/EduFrAndroid_ijp4oc.mp4"
         />
 
       <ProjectCard
@@ -58,7 +58,7 @@ export default function Projects() {
           ide="Xcode"
           database="Firebase, json"
           githubUrl="https://github.com/tuusuario/ecommerce"
-          demoVideoUrl="/demo_video_ohlaline.MP4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608829/iOSEduApp_t4y0qt.mp4"
         />
 
         <ProjectCard
@@ -67,7 +67,7 @@ export default function Projects() {
           ide="Android Studio"
           database="Apiary"
           githubUrl="https://github.com/Vicoror/PracticaAndroidModulo7.git"
-          demoVideoUrl="/demo_video_ohlaline.MP4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608830/FloresArAndroid_kwi3sb.mp4"
         />
         <ProjectCard
           title="App iOS Mascotas"
@@ -75,7 +75,7 @@ export default function Projects() {
           ide="Xcode"
           database=""
           githubUrl="https://github.com/tuusuario/ecommerce"
-          demoVideoUrl="/demo_video_ohlaline.MP4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608833/AdopMasiOS_pq36jc.mp4"
         />
         
     </div>

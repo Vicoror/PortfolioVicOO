@@ -30,15 +30,15 @@ export default function Projects() {
           title="Portfolio React"
           stack="React, Type Script, Tailwind CSS"
           ide="Visual Studio Code"
-          database="Render, Resend"
-          githubUrl=""
+          database="Render, Resend. Cloudinary"
+          githubUrl="https://github.com/Vicoror/contact-backend.git, https://github.com/Vicoror/PortfolioVicOO.git"
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608841/porfolio_ztgtor.mp4"
         />
       <ProjectCard
           title="E-commerce React"
-          stack="React, Java Script, Tailwind CSS"
+          stack="React, Java Script, Tailwind CSS, Stripe"
           ide="Visual Studio Code"
-          database="MySQL, Railway"
+          database="MySQL, Railway, Nodemailer, Cloudinary"
           githubUrl="https://github.com/Vicoror/proyecto-final.git"
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/Joyeria_qkjeua.mp4"
         />
@@ -58,7 +58,7 @@ export default function Projects() {
           stack="Swift"
           ide="Xcode"
           database="Firebase, json"
-          githubUrl="https://github.com/tuusuario/ecommerce"
+          githubUrl=""
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608829/iOSEduApp_t4y0qt.mp4"
         />
 
@@ -74,8 +74,8 @@ export default function Projects() {
           title="App iOS Mascotas"
           stack="Consumo de Api"
           ide="Xcode"
-          database=""
-          githubUrl="https://github.com/tuusuario/ecommerce"
+          database="Api"
+          githubUrl=""
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608833/AdopMasiOS_pq36jc.mp4"
         />
         

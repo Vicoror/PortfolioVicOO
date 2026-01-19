@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
-
+import { useError } from "../context/ErrorContext";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import SectionWithBubbles from "../components/SectionWithBubbles";
@@ -10,6 +10,7 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
+   const { showError } = useError();
 
   const subjectRegex = /^[a-zA-ZÀ-ÿ0-9\s]{3,60}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -60,9 +61,17 @@ export default function Contact() {
       setMessage("");
     } catch (error) {
       console.error(error);
-      toast.error("Error al enviar el mensaje");
+      //toast.error("Error al enviar el mensaje");
     } finally {
       setLoading(false);
+    }
+  };
+
+   const loadData = async () => {
+    try {
+      throw new Error();
+    } catch {
+      showError("Error al cargar datos ❌");
     }
   };
 
@@ -121,6 +130,7 @@ export default function Contact() {
               </div>
 
               <button
+                onClick={loadData}
                 type="submit"
                 disabled={loading}
                 className="w-full rounded-xl bg-[#054172] py-3 font-semibold text-white transition hover:bg-[#04345c] disabled:opacity-50"

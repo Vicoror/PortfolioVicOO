@@ -51,7 +51,7 @@ export default function ProjectCard({
         </p>
 
         <p>
-          <span className="font-semibold">Base de datos:</span> {database}
+          <span className="font-semibold">Back-end/Base de datos:</span> {database}
         </p>
 
         <p>

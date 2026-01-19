@@ -4,8 +4,10 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
+import { useNetworkError } from "./hooks/useNetworkError";
 
 function App() {
+  useNetworkError();
   return (
     <BrowserRouter>
       <Routes>

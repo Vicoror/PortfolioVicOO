@@ -31,7 +31,7 @@ export default function Projects() {
           stack="React, Type Script, Tailwind CSS"
           ide="Visual Studio Code"
           database="Render, Resend. Cloudinary"
-          githubUrl="https://github.com/Vicoror/contact-backend.git, https://github.com/Vicoror/PortfolioVicOO.git"
+          githubUrl="https://github.com/Vicoror/PortfolioVicOO.git"
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608841/porfolio_ztgtor.mp4"
         />
       <ProjectCard

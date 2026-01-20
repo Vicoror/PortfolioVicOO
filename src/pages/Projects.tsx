@@ -32,7 +32,7 @@ export default function Projects() {
           ide="Visual Studio Code"
           database="Render, Resend. Cloudinary"
           githubUrl="https://github.com/Vicoror/contact-backend.git, https://github.com/Vicoror/PortfolioVicOO.git"
-          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/Joyeria_harwhv.mp4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608841/porfolio_ztgtor.mp4"
         />
       <ProjectCard
           title="E-commerce React"
@@ -40,7 +40,7 @@ export default function Projects() {
           ide="Visual Studio Code"
           database="MySQL, Railway, Nodemailer, Cloudinary"
           githubUrl="https://github.com/Vicoror/proyecto-final.git"
-          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/Joyeria_qkjeua.mp4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/Joyeria_harwhv.mp4"
         />
   
       <ProjectCard

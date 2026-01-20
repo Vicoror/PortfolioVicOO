@@ -71,7 +71,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 text-[1.2rem] font-bold sm:text-[1.6rem] text-[#82a2bd] [text-shadow:1px_1px_2px_#FFFFFF]">
-          React and Mobile Developper
+          React and Mobile Developer
         </p>
 
         {/* BURBUJAS */}

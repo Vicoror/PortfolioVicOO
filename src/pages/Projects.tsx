@@ -32,7 +32,7 @@ export default function Projects() {
           ide="Visual Studio Code"
           database="Render, Resend. Cloudinary"
           githubUrl="https://github.com/Vicoror/contact-backend.git, https://github.com/Vicoror/PortfolioVicOO.git"
-          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608841/porfolio_ztgtor.mp4"
+          demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/Joyeria_harwhv.mp4"
         />
       <ProjectCard
           title="E-commerce React"
@@ -58,7 +58,7 @@ export default function Projects() {
           stack="Swift"
           ide="Xcode"
           database="Firebase, json"
-          githubUrl=""
+          githubUrl="https://github.com/Vicoror/OhlalineIOS.git"
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608829/iOSEduApp_t4y0qt.mp4"
         />
 
@@ -75,7 +75,7 @@ export default function Projects() {
           stack="Consumo de Api"
           ide="Xcode"
           database="Api"
-          githubUrl=""
+          githubUrl="https://github.com/Vicoror/Mascotas.git"
           demoVideoUrl="https://res.cloudinary.com/cargarfotos/video/upload/v1768608833/AdopMasiOS_pq36jc.mp4"
         />
         
